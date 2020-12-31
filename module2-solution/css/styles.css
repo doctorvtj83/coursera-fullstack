@@ -1,0 +1,61 @@
+/* Base Styles */
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+p {
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+.title_section {
+	position:absolute;
+	top:0px;
+	right:0px;
+	width:100px;
+	text-align: center;
+}
+
+.container {
+	position: relative;
+}
+
+/* Responsive Framework */
+.row {
+  width: 100%;
+}
+
+
+@media (min-width: 992px) {
+	.col-ls {
+		float: left;
+		width: 33.33%;
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-ms-1, .col-ms-2 {
+		float: left;
+	}
+	.col-ms-1 {
+		width: 50%;
+	}
+	.col-ms-2 {
+		width: 100%
+	}
+}
+
+@media (max-width: 767px) {
+	.col-ss {
+		float: left;
+		width:100%;
+	}
+
+}
