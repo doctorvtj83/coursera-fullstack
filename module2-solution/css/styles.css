@@ -2,16 +2,19 @@
 
 * {
   box-sizing: border-box;
+  font-family: Tahoma, Helvetica,  sans-serif;
 }
 
 h1 {
 	margin-bottom: 20px;
 	text-align: center;
+	font-size: 175%;
 }
 
 p {
 	padding: 0.5em;
-	margin-top: 1em;
+	margin-top: 2em;
+	margin-bottom: 0.5em;
 }
 
 .menu_title {
@@ -22,6 +25,8 @@ p {
 	text-align: center;
 	border-left: 1px solid black;
 	border-bottom: 1px solid black;
+	padding: 2px;
+	font-size: 125%;
 
 }
 
@@ -39,15 +44,16 @@ p {
 
 
 #chicken {
-
+	background-color: #6699ff;
 }
 
 #beef {
-
+	background-color: #990000;
+	color: #ffffff;
 }
 
 #sushi {
-	
+	background-color: #ff99ff;
 }
 
 @media (min-width: 992px) {
